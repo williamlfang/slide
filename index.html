@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>夕会</title>
+  <title>沪港通</title>
   <meta name="description" content="">
   <meta name="author" content="方莲">
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -14,7 +14,16 @@
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
   <![endif]-->  <link rel="stylesheet" href = "assets/css/slidify-reveal.css">
-
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+  if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'reveal.js/css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  }
+</script>
 </head>
 <body>
   
@@ -53,6 +62,7 @@
   -moz-box-reflect: below -0.556em -moz-linear-gradient(top, transparent 0%, transparent 30%, rgba(255, 255, 255, 0.3) 100%);
 }
 
+    
 .reveal h3 {
   line-height: 1;
   -webkit-box-reflect: below -0.556em -webkit-gradient(linear, left top, left bottom, from(transparent), 
@@ -74,15 +84,28 @@
     background-clip: padding-box;
 }
 
+#big {
+    width: 600px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+}
+
+#big b {
+    display: block;
+    font-size: 250px;
+    line-height: 250px;
+}
+
 </style>
 
 <!--: Beginning ----------------------------------------------------------------------------------------------->
 
-<h1>大象「如何」起舞</h1>
+<h1>孔雀<font color="red">東南</font>飛</h1>
 
-<h4>金顾中心</h4>
+<h4>金顧中心</h4>
 
-<p><small> <a href="http://williamlfang.github.io/">方莲</a> </small></p>
+<p><small> <a href="http://williamlfang.github.io/">方蓮</a> </small></p>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
@@ -90,7 +113,7 @@
 
 </section>
 <section class='' data-state='' id='slide-2'>
-  <h2>反弹？反转？</h2>
+  <h2>非理性繁荣</h2>
   
 <div style='float:left;width:48%;' class='centered'>
   <p><img src="assets/fig/unnamed-chunk-4-1.png" alt="plot of chunk unnamed-chunk-4"> </p>
@@ -104,91 +127,426 @@
   
 </div>
 </section>
-<section class='' data-state='' id='slide-3'>
-  
-  <p><img src="assets/fig/unnamed-chunk-6-1.png" alt="plot of chunk unnamed-chunk-6"> </p>
+<section>
+   <section class='' data-state='brown'>
+    <h2>市啥率，就是啥率</h2>
+    <p class='fragment'></p>
 
+<ul class = "build incremental">
+<li>好朋友问及我如何评估中国市场的估值。我答道：“用市盈率及市净率，”并续道：“现在两个比率已经非常高了。”</li>
+<li>好朋友笑道：“哎呀，亲爱的，你难道有没有听说过市梦率，市胆率，甚至市傻率吗？”</li>
+<li>我被他逗乐了，并顺势举行茶杯喊道：“那我们就为市啥率干杯吧！”</li>
+<li>“你显然未醉。”友人走过来牵着我的手臂道：“我们其他人都喝酒，你这样的独醒的状态，不会尽兴的。”</li>
+<li>我只好从了，和大家一醉方休。</li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='indigo'>
+    <h2>凯恩斯</h2>
+
+<blockquote>
+<p>没有什么比在一个非理性的世界追求一个理性的投资策略更具有毁灭性。</p>
+</blockquote>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='green'>
+    <p><img src="assets/fig/unnamed-chunk-6-1.png" alt="plot of chunk unnamed-chunk-6"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='green'>
+    <p><img src="assets/fig/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <h2>增量资金是动能</h2>
+
+<p><img src="graphic/20150403/fig04.png" height="320" width="780"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='indigo'>
+    <h2>巴菲特</h2>
+
+<blockquote>
+<p>別人恐懼時我們貪婪，
+<br>
+別人貪婪時我們恐懼。</p>
+</blockquote>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='blue'>
+    <h2>梦醒时分</h2>
+
+<p class='fragment'>海通：二季度 A 股市场风格有望切换到蓝筹板块</p>
+
+<ul class = "build incremental">
+<li>中小市值股票“市梦率”式的炒作不可持续；</li>
+<li>相对较高的信用交易杠杆将促发 A 股市场风格切换的速度；</li>
+<li>退市制度的实质推进，注册制的深入，未来“良币驱逐劣币”时代即将到来</li>
+<li>绩优蓝筹板块和个股将获得市场的青睐。 </li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
 </section>
 <section class='' data-state='' id='slide-4'>
-  
-  <p><img src="assets/fig/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7"> </p>
-
-</section>
-<section class='' data-state='' id='slide-5'>
-  <h2>躁动的A股</h2>
-  <p class='fragment'>进入 2015 年，A 股市场分化明显</p>
-
-<ul class = "build incremental">
-<li>沪指震荡回落，逼近 3000 点整数关口</li>
-<li>而创业板指则突飞猛进，连创历史新高</li>
-</ul>
-
-<p><br><p></p><br></p>
-
-<p class='fragment'>在此期间，概念板块炒作持续活跃</p>
-
-<ul class = "build incremental">
-<li>环保概念：穹顶之下引发的暴动</li>
-<li>国资改革：上海板块</li>
-<li>互联网金融：回锅肉</li>
-<li>两会题材</li>
-</ul>
-
-<script>
-$('ul.incremental li').addClass('fragment')
-</script>
-
-</section>
-<section class='' data-state='green' id='slide-6'>
-  <h1>「结构性」行情</h1>
-  <p class='fragment'>综合指数暂时失效</p>
-
-<ul class = "build incremental">
-<li>创业板可能继续走高，但动能已变弱：惯性动能</li>
-<li>主板中线具备投资价值：均值回复过程</li>
-<li>行业内个股分化明显：关注年报披露</li>
-<li>适当布局二线蓝筹与滞涨股：消灭低估值</li>
-<li>互联网+：车联网，智能工业，智慧医疗</li>
-<li>留一半清醒</li>
-</ul>
-
-<script>
-$('ul.incremental li').addClass('fragment')
-</script>
-
-</section>
-<section class='' data-state='red' id='slide-7'>
-  <h2>市梦率？</h2>
+  <h2>投资简单的事</h2>
   
 <div style='float:left;width:48%;' class='centered'>
-  <p><img src="assets/fig/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
+  <ul class = "build incremental">
+<li>89</li>
+<li>11</li>
+<li>= <font color="green"> 100 </font></li>
+</ul>
 
 </div>
 <div style='float:right;width:48%;'>
-  <p><img src="assets/fig/unnamed-chunk-9-1.png" alt="plot of chunk unnamed-chunk-9"> </p>
+  <ul class = "build incremental">
+<li>49</li>
+<li>11</li>
+<li>= <font color="red"> 60 </font></li>
+</ul>
+
+</div>
+<div>
+  <p class='fragment'></p>
+
+<ul class = "build incremental">
+<li> <font color="green"> 12.359550561 </font></li>
+<li><font color="red" size="55"> 22.448979591 </font></li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+</div>
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>最遥远的距离</h2>
+  
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="graphic/20150403/fig06.png"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="graphic/20150403/fig07.png"></p>
 
 </div>
 <div>
   
 </div>
 </section>
-<section class='' data-state='indigo' id='slide-8'>
-  <h1>「会」投资</h1>
-  <h3>炒作题材</h3>
-
-<p class='fragment'>两会期间被轮番爆炒，热词抢占A股前沿</p>
+<section>
+   <section class='' data-state=''>
+    <h2>最遥远的距离</h2>
+    <p class='fragment'></p>
 
 <ul class = "build incremental">
-<li>环保是一个「大产业」： 支柱产业定位，环保行业政策</li>
-<li>国资改革：全面推进</li>
-<li>互联网+：不仅是改造传统产业，而是「重造」整个生态</li>
-<li>工业4.0：中国制造2025</li>
-<li>政策为经济兜底：基建、地产、有色、金属</li>
+<li>沪股通上涨58%</li>
+<li>港股通仅5%</li>
+<li><img src="graphic/20150403/fig03.png" width="780"></li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='orange'>
+    <h2>香港最便宜</h2>
+
+<p><img src="graphic/20150403/fig02.png" height="320" width="680"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>行业前向市盈率对比</h2>
+
+<p><img src="graphic/20150403/fig14.png" height="320" width="880"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>行业前向市净率对比</h2>
+
+<p><img src="graphic/20150403/fig14.png" height="320" width="880"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='' data-state='blue'>
+    <h2>港A化</h2>
+    <p><img src="graphic/20150403/fig08.png" height="320" width="780"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <h2>港A化</h2>
+
+<p><img src="graphic/20150403/fig09.png" height="320" width="880"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='red'>
+    <h2>孔雀<font color="blue">東南</font>飛</h2>
+
+<p class='fragment'></p>
+
+<ul class = "build incremental">
+<li>香港作为全球估值洼地的吸引力不断上升</li>
+<li>公募基金和险资开放，资金南下趋势明显</li>
+<li><img src="graphic/20150403/fig01.png" width="780"></li>
 </ul>
 
 <script>
 $('ul.incremental li').addClass('fragment')
 </script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h2>北水南调</h2>
+  
+<div style='float:left;width:48%;' class='centered'>
+  <p><h4> 近期沪股通连续净抛售</h4>
+<img src="graphic/20150403/fig10.png"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><h4> 港股通则持续净买入</h4>
+<img src="graphic/20150403/fig11.png"></p>
+
+</div>
+<div>
+  
+</div>
+</section>
+<section class='' data-state='red' id='slide-9'>
+  <h2>下一站，香港</h2>
+  <p><img src="graphic/20150403/fig12.png" width="780"></p>
+
+</section>
+<section>
+   <section class='' data-state=''>
+    
+    <p><img src="graphic/20150403/fig05.png" width="780"></p>
+
+<h2>港股通投资策略</h2>
+
+<p class='fragment'>几类优质公司有望获得新资金关注 </p>
+
+<ul class = "build incremental">
+<li>沪港通范围内，市值在 200 亿以下的低估值公司； </li>
+<li>H 股明显折价的 A+H 类公司； </li>
+<li>在沪港通范围外，但具有 A 股认可概念的小市值公司。</li>
+</ul>
+
+<script>
+$('ul.incremental li').addClas    s('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='indigo'>
+    <p><img src="graphic/20150403/fig16.png" width="880"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='orange'>
+    <p><img src="graphic/20150403/fig13.png" height="880"></p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <p><img src="assets/fig/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='green'>
+    <p><img src="assets/fig/unnamed-chunk-9-1.png" alt="plot of chunk unnamed-chunk-9"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-11'>
+  <h1>金港<font color="red">快线</font></h1>
+  <h4>金顧中心</h4>
+
+<p><small> <a href="http://williamlfang.github.io/">方蓮</a> </small></p>
+
+<p><img src="graphic/20150403/logo.jpg" height="320" width="450"></p>
+
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>全景扫描</h2>
+    <p class='fragment'>覆盖广阔，标的稀缺</p>
+
+<ul class = "build incremental">
+<li>可以进行港股通交易的合资格股票 <font color="red" size="30"> ? </font></li>
+<li><font color="red" size="30"> 284 </font></li>
+<li>17</li>
+<li>26%</li>
+<li>80%</li>
+<li><font color="green" size="30"> 10.2 </font></li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <h2>投资逻辑</h2>
+
+<p class='fragment'></p>
+
+<ul class = "build incremental">
+<li>直接受益于资本市场制度红利的券商行业</li>
+<li>AH 股折价率:两地估值溢价。主要是 TMT 类小市值个股</li>
+<li>稀缺性:市值结构。对于港股来说，优质的 TMT 类公司具备一定的稀缺性</li>
+<li>股息分红:两地风格偏好。外部投资者偏好于高分红低估值且业绩相对稳定的资产</li>
+<li>产业竞争力:全球视角</li>
+<li><h4> 一言以蔽之：真正的价值投资！！！</h4></li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-13'>
+  <h2>产品服务化设计</h2>
+  
+<div style='float:left;width:48%;' class='centered'>
+  <p class='fragment'><h4> <font color="red" size="30"> 资讯类 </font>  </h4></p>
+
+<ul class = "build incremental">
+<li>每日投资要闻</li>
+<li>港股投资建议</li>
+<li>AH两市联动</li>
+<li>海外市场述评</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p class='fragment '><h4> <font color="red" size="30"> 策略类 </font> </h4></p>
+
+<ul class = "build incremental">
+<li>行业分析供稿</li>
+<li>潜力板块追踪</li>
+<li>深度价值挖掘</li>
+<li>高端理财服务</li>
+</ul>
+
+<script>
+$('ul.incremental li').addClass('fragment')
+</script>
+
+</div>
+<div>
+  
+</div>
+</section>
+<section>
+   <section class='' data-state='red'>
+    <h3>神州租车：移动出行入口</h3>
+    <p><img src="assets/fig/unnamed-chunk-10-1.png" alt="plot of chunk unnamed-chunk-10"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='brown'>
+    <h3>四环医药：先进新药研制</h3>
+
+<p><img src="assets/fig/unnamed-chunk-11-1.png" alt="plot of chunk unnamed-chunk-11"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state='indigo'>
+    <h3>腾讯控股：社交平台龙头</h3>
+
+<p><img src="assets/fig/unnamed-chunk-12-1.png" alt="plot of chunk unnamed-chunk-12"> </p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section class='' data-state='' id='slide-15'>
+  
+  <p><img src="graphic/20150403/wechat.jpg" height="120" width="250"></p>
+
+<ul class = "build incremental">
+<li>Tel：5393093</li>
+<li>微信：william_fang</li>
+</ul>
+
+</section>
+<section class='' data-state='red' id='slide-16'>
+  
+  <p><img src="graphic/20150403/zhangting.jpg" height="520" width="880"></p>
 
 </section>
     </div>
