@@ -1,0 +1,66 @@
+参考了[许多](https://github.com/ramnathv/slidify/issues/329)
+
+
+library(devtools)
+install_github("ramnathv/slidify@fix-encode")
+
+然后使用命令来实现
+
+
+slidify('index.Rmd', encoding='CP936')		## 如果是 GB2312
+
+
+
+
+setwd("F:/国信证券/Slides/slidify/slidifyDemo")
+slidify('index-UTF8.Rmd', encoding='UTF8')      ## 如果是 UTF8 
+
+---------------------------------------------------------------------
+library(WindR)
+w.start()
+
+library(slidify)
+setwd("F:/国信证券/Slides/slidify/slidifyDemo")
+slidify('300020.Rmd', encoding='UTF8')
+
+
+---------------------------------------------------------------------
+
+setwd("F:/国信证券/Slides/slidify/slidifyDemo")
+library(slidify)
+slidify('600562.Rmd', encoding='UTF8')      ## 如果是 UTF8 
+slidify('600562.Rmd', knit_deck = TRUE, encoding='UTF8', return_page = FALSE, save_payload = FALSE)
+
+
+             			先 knitr 一下
+				再运行 stock.intraday.plot(ticker, from=Sys.time()-8*60*60, to=Sys.time())
+
+				再运行 slidify('600562.Rmd', encoding='UTF8')      ## 如果是 UTF8 
+
+
+
+slidify('2014-08-25-cloud.Rmd', encoding='UTF8')  
+
+##########################################################################
+setwd("D:/国信证券/Slides/slidify/slidifyDemo")
+library(slidify)
+slidify('smartcity.Rmd', knit_deck = TRUE, encoding='UTF8', return_page = FALSE, save_payload = FALSE)
+
+setwd("D:/国信证券/Slides/slidify/slidifyDemo")
+slidify('002246.Rmd', encoding='UTF8')
+
+
+setwd("D:/国信证券/Slides/slidify/slidifyDemo")
+slidify('20141031.Rmd', encoding='UTF8')
+
+library(slidify)
+setwd("G:/国信证券/Slides/slidify/slidifyDemo")
+slidify('2014-08-25-cloud.Rmd', encoding='UTF8')
+
+library(slidify)
+setwd("C:/Users/Administrator/Desktop/新建文件夹/mydeck")
+slidify('index.Rmd', encoding='UTF8')
+
+library(slidify)
+setwd("C:/Users/Administrator/Desktop/slidifyDemo")
+slidify('002246.Rmd', encoding='UTF8')
