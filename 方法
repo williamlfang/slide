@@ -1,0 +1,12 @@
+publish(user = "williamlfang", repo = "slide", host = 'github')
+
+
+========================================================================================
+
+
+setwd("/media/william/Storage/slidify/publish")
+
+library(slidify)
+
+publish(user = "williamlfang", repo = "slide", host = 'github')
+
