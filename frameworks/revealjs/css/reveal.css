@@ -32,8 +32,6 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: "文泉驿等宽微米黑","Helvetica Neue","Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
-
 }
 
 .reveal article, .reveal aside, .reveal details, .reveal figcaption, .reveal figure,
